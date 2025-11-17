@@ -20,7 +20,7 @@ MagicMirror² focuses on a modular plugin system and uses [Electron](https://www
 For the full documentation including **[installation instructions](https://docs.magicmirror.builders/getting-started/installation.html)**, please visit our dedicated documentation website: [https://docs.magicmirror.builders](https://docs.magicmirror.builders).
 
 ## Links
-
+- Project walkthrough: [https://youtu.be/3TAraZ-E7DY?si=KGKiyj2e6eiaPVdY](https://youtu.be/3TAraZ-E7DY?si=KGKiyj2e6eiaPVdY)
 - Website: [https://magicmirror.builders](https://magicmirror.builders)
 - Documentation: [https://docs.magicmirror.builders](https://docs.magicmirror.builders)
 - Forum: [https://forum.magicmirror.builders](https://forum.magicmirror.builders)
