@@ -8,15 +8,20 @@ cd /home/pi/MagicMirror/ || exit
 # launch MagicMirror in the background and redirect output to a log file
 DISPLAY=:0 npm run start > mm.log 2>&1 &
 
-# save the process ID to a file so you can stop it later
+# save the process ID to a log file so you can stop it later
 echo $! > mm.pid
 
 echo "MagicMirror started in the background. PID saved in mm.pid"
 
 # To stop MagicMirror later:
-# `kill $(cat /home/pi/MagicMirror/mm.pid)`
-# `rm /home/pi/MagicMirror/mm.pid`
+kill $(cat /home/pi/MagicMirror/mm.pid)
+rm /home/pi/MagicMirror/mm.pid
 
-# To run in the background
+
 # cd ~/MagicMirror
-# npm start &
+# to start the mirror in the background
+# pm2 start npm --name "mm" -- start
+# then to stop run this command
+# pm2 stop mm
+
+
