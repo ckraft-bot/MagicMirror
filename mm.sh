@@ -16,3 +16,7 @@ echo "MagicMirror started in the background. PID saved in mm.pid"
 # To stop MagicMirror later:
 # `kill $(cat /home/pi/MagicMirror/mm.pid)`
 # `rm /home/pi/MagicMirror/mm.pid`
+
+# To run in the background
+# cd ~/MagicMirror
+# npm start &
