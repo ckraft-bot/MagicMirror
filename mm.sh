@@ -9,13 +9,10 @@ sleep 20
 # Navigate to MagicMirror directory
 cd /home/pi/MagicMirror/ || exit
 
-# Launch MagicMirror in the background, log output to mm.log
-DISPLAY=:0 npm run start > mm.log 2>&1 &
+# Launch MagicMirror in the foreground
+npm start  
 
-# Save the process ID so you can stop it later
-echo $! > mm.pid
-
-echo "MagicMirror started in the background. PID saved in mm.pid"
+# to stop the mirror, use Ctrl + C in the terminal
 
 # ---------------------------------------------
 # To stop MagicMirror later:
