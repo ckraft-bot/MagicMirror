@@ -27,6 +27,8 @@ echo "MagicMirror started in the background. PID saved in mm.pid"
 # cd ~/MagicMirror
 # to start the mirror in the background
 # pm2 start npm --name "mm" -- start
+# swtich between tabs
+# Alt + Tab to select the terminal
 # then to stop run this command
 # pm2 stop mm
 # ---------------------------------------------
