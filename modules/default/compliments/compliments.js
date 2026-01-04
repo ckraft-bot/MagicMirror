@@ -7,7 +7,7 @@ Module.register("compliments", {
 			anytime: ["What's up?", "You good?", "What's new?", "Hej hej"],
 			morning: ["God morgon, Claire!", "Enjoy your day!", "Ha det bra", "How was your sleep?"],
 			afternoon: ["God dag", "Looking good today!", "Have you eaten yet?"],
-			evening: ["God kväll", "Good night!"],
+			evening: ["God kvall", "Good night!"],
 			"....-01-01": ["Happy new year!"]
 		},
 		updateInterval: 30000,
